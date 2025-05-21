@@ -1,0 +1,304 @@
+.bg1
+{
+    background-color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+*,*::before,*::after{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid-container1
+{
+    display:grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+}
+.grid-container1>div
+{
+    color: ghostwhite;
+    font-size:33px;
+}
+.grid-item1
+{
+    margin-left:200px;
+
+}
+.grid-item2
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: end;
+    column-gap: 20px;
+
+}
+.grid-item2>div>a
+{
+    font-size: 20px;
+    color:ghostwhite;
+   text-decoration: none;
+   position: relative;
+}
+.grid-item2>div>a::after
+{
+    content: "";
+    position: absolute;
+    background-color: rgb(230,23,58);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.grid-item2>div>a:hover::after
+{
+    width: 100%;
+}
+.grid-5
+{
+    margin-right: 200px;
+}
+.heading1
+{
+    color:ghostwhite ;
+    margin-left:200px ;
+    margin-top:200px ;
+
+}
+.head1
+{
+    font-size:25px;
+    margin-bottom: 0px;
+}
+.head2
+{
+    margin-top: 5px;
+    font-size: 40px;
+}
+.dfbg
+{
+    background-color: rgb(20,20,30);
+    
+}
+
+.grid-container1
+{
+border-radius: 30px;
+}
+.grid-container2
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: ghostwhite;
+    column-gap: 40px;
+    
+    padding-top: 100px;
+
+}
+.grid-container2>div
+{
+    font-size: 25px;
+}
+.grid-item6>img
+{
+    margin-left:200px;
+    border-radius: 40px;
+    
+}
+.s1
+{
+    font-size:15px;
+    margin-top:0px;
+}
+.grid-item7
+{
+    margin-right: 150px;
+    margin-bottom: 0px;
+    
+}
+.myservice
+{
+    margin-left: 200px;
+    margin-top:100px;
+   color:ghostwhite;
+
+}
+.myservice>p
+{
+font-size:60px;
+font-weight: bold;
+
+}
+.grid-services
+{
+    column-gap: 40px;
+    grid-template-columns: auto auto auto;
+    display: grid;
+}
+.item-3
+{
+    margin-right:200px;
+    
+}
+.card1
+{
+ background-color: rgb(45,45,45);
+ width:400px;
+ height:200px;
+ padding:20px;
+ border-radius: 10px;
+ transition:background-color 0.5s,transform 0.5s;
+}
+.card1>p
+{
+    font-size: 14px;
+    
+}
+.card1>a
+{
+    color:ghostwhite;
+    font-size: 12px;
+    text-decoration:none;
+
+}
+.card1:hover
+{
+  background-color: rgb(230,23,58);
+  transform: translateY(-10px);
+}
+.grid-contact
+{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.grid-contact
+{
+    color: ghostwhite;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.grid-9
+{
+    color:ghostwhite;
+}
+.c1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.c2
+{
+    font-size: 22px;
+    margin-top: 50px;
+}
+.c3
+{
+    font-size: 22px;
+    margin-top: 50px;
+}
+.grid-9>button
+{
+    background-color:rgb(236, 48, 79);
+    padding:15px;
+    border-radius: 10px;
+    color:white;
+    border: none;
+    margin-top:100px;
+
+}
+.grid-10 >form>div 
+{
+margin-top:50px;
+}
+.grid-10>form>div>button
+{
+    background-color: rgb(236,48,79);
+    padding:15px;
+    border-radius: 10px;
+    color:white;
+    border: none;
+    width:100px;
+
+}
+input{
+    background-color: black;
+    height: 50px;
+    width: 600px;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    border-radius: 15px;
+
+}
+textarea
+{
+background-color: black;
+    height: 50px;
+    width: 600px;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+.c4
+{
+    text-align: center;
+    background-color: rgb(55, 53, 53);
+    color: white;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.port
+{
+    margin-top: 100px;
+    margin-left: 200px;
+    color: ghostwhite;
+}
+.port>p
+{
+    font-size: 60px;
+    font-weight: bold;
+}
+.port-grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    column-gap: 40px;
+}
+
+.grid-item12>div>img
+{
+width: 300px;
+height: 300px;
+border-radius: 20px;
+}
+.grid-item13>div>img
+{
+width: 300px;
+height: 300px;
+border-radius: 20px;
+}
+.grid-item14>div>img
+{
+width: 300px;
+height: 300px;
+border-radius: 20px;
+margin-right: 200px;
+}
+.more
+{
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solidrgb(231,30,63);
+    margin-left: 300px;
+    margin-right: 500px;
+}
+.more>a 
+{
+text-decoration: none;
+color: ghostwhite;
+
+}
